@@ -24,8 +24,8 @@ mongoose
   .then(() => {
     console.log("connection with db success!");
     // only after connection with db, be able to set sever running.
-    app.listen("5000", () => {
-      console.log("server running: http://localhost:5000");
+    app.listen("3000", () => {
+      console.log("server running: http://localhost:3000");
     });
   })
   .catch((error) => {
